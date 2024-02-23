@@ -1,0 +1,41 @@
+section{
+background-color: hsl(206, 6%, 79%);
+}
+.white{
+    width: 200px;
+    background-color: white;
+    height: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    color:black;
+}
+.light-purple{
+    background-color: hsl(276, 100%, 81%);
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    color: hsl(271, 36%, 24%);
+}
+.light-purple-big{
+    background-color: hsl(276, 100%, 81%);
+    width: 200px;
+    height: 35px;
+    padding: 25px;
+    border-radius: 40px; 
+    padding-top: 10px;
+    color: hsl(271, 36%, 24%);
+}
+
+.samuel{
+    border-radius: 50%;
+    width:5%
+}
+img{
+    border-radius: 20px;
+    width: 7%;
+}
+h4{
+    color: hsl(270, 7%, 64%);
+    font-weight: normal;
+}
