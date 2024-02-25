@@ -1,5 +1,13 @@
 section{
-background-color: hsl(206, 6%, 79%);
+    background-color: var(--Light-Grayish-Violet);
+    position: absolute;
+    border: 15px solid var(--White);
+    border-radius: 30px;
+    top: 85px;
+    right: 50px;
+    z-index: 3;
+    margin: 0 auto;
+    width: 250px;
 }
 .white{
     width: 200px;
@@ -29,7 +37,7 @@ background-color: hsl(206, 6%, 79%);
 
 .samuel{
     border-radius: 50%;
-    width:5%
+    width:15%
 }
 img{
     border-radius: 20px;
