@@ -1,49 +1,112 @@
+body{
+    background-color: hsl(270, 20%, 96%);
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    
+}
 section{
-    background-color: var(--Light-Grayish-Violet);
     position: absolute;
-    border: 15px solid var(--White);
+    background-color: hsl(270, 20%, 96%);
+    border: 15px solid White;
     border-radius: 30px;
-    top: 85px;
-    right: 50px;
-    z-index: 3;
-    margin: 0 auto;
     width: 250px;
+    margin-left: 300px;
+    top: 50px;
+    padding: 10px;
+    
+    
 }
 .white{
-    width: 200px;
-    background-color: white;
-    height: 30px;
-    padding: 20px;
+    position: relative;
+    width: 120px;
+   background: white;
+   height:fit-content ;
     border-radius: 50px;
     color:black;
+    padding: 10px;
+    left: 100px;
 }
 .light-purple{
     background-color: hsl(276, 100%, 81%);
-    width: 200px;
-    height: 30px;
-    padding: 20px;
+    width: 100px;
+    height: fit-content;
+    padding: 10px;
     border-radius: 50px;
     color: hsl(271, 36%, 24%);
 }
 .light-purple-big{
     background-color: hsl(276, 100%, 81%);
-    width: 200px;
+    width: 100px;
     height: 35px;
     padding: 25px;
     border-radius: 40px; 
     padding-top: 10px;
     color: hsl(271, 36%, 24%);
 }
-
+.img{
+    border-radius: 20px;
+    width: 20%;
+   position: relative;
+   left: 90px;
+   
+    
+}
 .samuel{
     border-radius: 50%;
-    width:15%
-}
-img{
-    border-radius: 20px;
-    width: 7%;
+    width:15% ;
+    border: 2px solid white;
 }
 h4{
     color: hsl(270, 7%, 64%);
     font-weight: normal;
+    width: 70%;
+    font-size: 16px;
+}
+figure{
+    background: linear-gradient(to right, hsl( 264, 100%, 61%), hsl(293, 100%, 63%));
+    width:100%;
+   margin: 0 ;
+    line-height: 10px;
+    padding: 10px;
+    border-radius: 20px 20px 5px 5px;
+}
+article{
+position: absolute;
+top: 300px;
+left: 800px;
+}
+h1{
+color: hsl(271, 36%, 24%);
+font-size: 50px;
+margin: 0;
+}
+.background{
+ background: hsl(264, 100%, 61%) ;
+width: 25%;
+height: 600px;
+border-radius: 0 0 150px 150px;
+}
+button{
+    background-color: white;
+    border-radius: 15px;
+    color: hsl(270, 7%, 64%);
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    width: 200px;
+    margin: 10px;
+}
+.price{
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl( 264, 100%, 61%));
+    color: white;
+    width: 70%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 10px 10px 10px 5px;
+}
+.fa-solid{
+    color: hsl(271, 36%, 24%);
+    font-size: 20px;
+    padding-left: 50px;
 }

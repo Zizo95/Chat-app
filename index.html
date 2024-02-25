@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32 png">
-
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1aeafcbe41.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | [Challenge Name Here]</title>
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -13,6 +13,7 @@
   </style>
 </head>
 <body>
+  <div class="background"></div>
   <section>
     <figure>
       <img src="images/avatar.jpg" class="samuel" alt="Samuel">
@@ -24,16 +25,26 @@
 
   <p class="light-purple">Could you send over some pictures of your dog, please</p>
 
-  <img src="images/dog-image-1.jpg" alt="Dog">
-  <img src="images/dog-image-2.jpg" alt="Dog">
-  <img src="images/dog-image-3.jpg" alt="Dog">
+  <img src="images/dog-image-1.jpg" class="img" alt="Dog">
+  <img src="images/dog-image-2.jpg" class="img" alt="Dog">
+  <img src="images/dog-image-3.jpg"  class="img"alt="Dog">
 
  <p class="white">Here are a few pictures. She’s a happy girl!</p> 
- <p style="width: 120px;height: 20px; color: black;" class="white"> Can you make it?</p>
+ <p style="width: 80px;height: 10px; color: black; margin-left:40px ;" class="white"> Can you make it?</p>
  <p class="light-purple-big"> She looks so happy! The time we discussed works. How long shall I take her out for?</p>
- <p class="price-text">30 minute walk <span>$29</span></p>
-<p class="price-text">1 hour walk <span>$49</span></p> 
- <p>Type a message…</p>
+ <div class="price">
+  <input type="radio" id="walk" >
+  <label for="walk">30 minute walk <span>$29</span></p>
+ </div>
+ 
+ <div class="price">
+  <input type="radio" id="walk">
+  <label for="walk">1 hour walk <span>$49</span></label>
+ </div>
+ 
+ <button>Type a message…
+  <i class="fa-solid fa-circle-chevron-right"></i>
+ </button>
 
   </section>
 
@@ -41,9 +52,7 @@
   <h1> Simple booking</h1>
 
   <h4>
-    Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-    discuss arrangements and make bookings. Once the walk has been completed you can rate 
-    your walker and book again all through the chat.
+    Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings.Once the walk has been completed you can rate your walker and book again all through the chat.
   </h4>
 </article>
  
