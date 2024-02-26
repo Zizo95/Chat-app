@@ -13,8 +13,8 @@ section{
     width: 250px;
     margin-left: 300px;
     top: 50px;
-    padding: 10px;
-    
+    padding: 0px;
+  
     
 }
 .white{
@@ -53,6 +53,7 @@ section{
     
 }
 .samuel{
+    height: 46px;
     border-radius: 50%;
     width:15% ;
     border: 2px solid white;
@@ -64,12 +65,32 @@ h4{
     font-size: 16px;
 }
 figure{
+   height: 100px;
+    display: flex;
+    justify-content: space-between;
     background: linear-gradient(to right, hsl( 264, 100%, 61%), hsl(293, 100%, 63%));
-    width:100%;
-   margin: 0 ;
+   width: 100%;
     line-height: 10px;
-    padding: 10px;
     border-radius: 20px 20px 5px 5px;
+    margin: 0;
+    padding-top: 30px;
+    
+}
+.details{
+    text-align: center;
+    color: white;
+    
+}
+.fa-chevron-left{
+    position: relative;
+   color: white;
+   font-size: 16px;
+   top: 20px;
+}
+svg{
+position: relative;
+top: 20px;
+fill: white;
 }
 article{
 position: absolute;
@@ -105,8 +126,12 @@ button{
     margin-top: 5px;
     border-radius: 10px 10px 10px 5px;
 }
-.fa-solid{
+.fa-circle-chevron-right{
     color: hsl(271, 36%, 24%);
     font-size: 20px;
+    padding-left: 50px;
+}
+span{
+    font-weight: bold;
     padding-left: 50px;
 }
