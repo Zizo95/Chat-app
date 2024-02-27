@@ -8,44 +8,50 @@
   <script src="https://kit.fontawesome.com/1aeafcbe41.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | [Challenge Name Here]</title>
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
   <div class="background"></div>
   <section>
-    <figure>
+    <div class="small-white"></div>
+    <header>
       <i class="fa-solid fa-chevron-left"></i>
-      <img src="images/avatar.jpg" class="samuel" alt="Samuel">
+      <div class="info">
+        <img src="images/avatar.jpg" class="samuel" alt="Samuel">
       <div class="details">
         <h2>Samuel Green</h2>
         <p>Available to Walk</p>
       </div>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
-    </figure>
+    </header>
+
+    <figure>
+      <p class="light-purple">That sounds great. I’d be happy with that.</p>
+
+      <p class="light-purple">Could you send over some pictures of your dog, please</p>
     
-  <p class="light-purple">That sounds great. I’d be happy with that.</p>
-
-  <p class="light-purple">Could you send over some pictures of your dog, please</p>
-
-  <img src="images/dog-image-1.jpg" class="img" alt="Dog">
-  <img src="images/dog-image-2.jpg" class="img" alt="Dog">
-  <img src="images/dog-image-3.jpg"  class="img"alt="Dog">
-
- <p class="white">Here are a few pictures. She’s a happy girl!</p> 
- <p style="width: 80px;height: 10px; color: black; margin-left:40px ;" class="white"> Can you make it?</p>
- <p class="light-purple-big"> She looks so happy! The time we discussed works. How long shall I take her out for?</p>
- <div class="price">
-  <input type="radio" id="walk" >
-  <label for="walk">30 minute walk <span>$29</span></p>
- </div>
- 
- <div class="price">
-  <input type="radio" id="walk">
-  <label for="walk">1 hour walk <span style="padding-left: 65px;">$49</span></label>
- </div>
- 
+      <img src="images/dog-image-1.jpg" class="img" alt="Dog">
+      <img src="images/dog-image-2.jpg" class="img" alt="Dog">
+      <img src="images/dog-image-3.jpg"  class="img"alt="Dog">
+    
+     <p class="white">Here are a few pictures. She’s a happy girl!</p> 
+     <p style="width: 80px;height: 10px; color: black; margin-left:40px ;" class="white"> Can you make it?</p>
+     <p class="light-purple-big"> She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+    
+     <p class="price">
+      <i class="far fa-circle"></i>
+      <span>30 minute walk </span>
+      <span class="no1">$29</span>
+     </p>
+     <p class="price">
+      <i class="far fa-circle"></i>
+      <span>1 hour walk</span>
+      <span class="no2">$49</span>
+     </p>
+    </figure>
  <button>Type a message…
   <i class="fa-solid fa-circle-chevron-right"></i>
  </button>
