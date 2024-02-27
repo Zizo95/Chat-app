@@ -211,3 +211,9 @@ button{
             margin-left: 100px;
         }
 }
+@media screen and (max-width:400px){
+        section{
+            margin-left: 80px;
+           
+        }
+}
