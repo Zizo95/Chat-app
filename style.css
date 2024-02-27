@@ -222,4 +222,14 @@ button{
         .light-purple-big{
             width:130px ;
         }
+        .fa-circle{
+            padding-right: 1px;
+        }
+        .no1{
+            font-size: 12px;
+        }
+        .no2{
+    
+            font-size: 12px; 
+        }
 }
