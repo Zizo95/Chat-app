@@ -214,6 +214,11 @@ button{
 @media screen and (max-width:400px){
         section{
             margin-left: 80px;
-           
+        }
+        .can{
+            padding: 15px;
+        }
+        .light-purple-big{
+            padding: 25px;
         }
 }
